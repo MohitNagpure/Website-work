@@ -1,0 +1,175 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	background:url(../images/bg.jpg) no-repeat center center;
+	background-attachment:fixed;
+	background-size:cover;
+	font-family: "Poppins", sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+}
+.header{
+	color: white;
+    cursor: default;
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.main .inner {
+		margin: 0 auto;
+		width: 1280px;
+		max-width: 90%;
+		margin-bottom: 32px;
+}
+.wrapper{
+	padding: 0px 20px;
+}
+.img{
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	position: relative;
+}
+.text{
+	text-align: center;
+	background: #fff;
+	padding: 30px;
+	margin: 0px;
+}
+.text h2{
+	position: relative;
+	padding-bottom: 12px;
+	color: black;
+}
+.text p{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 4px;
+	margin: 0px;
+}
+.special{
+	padding: 60px 30px;
+}
+.content{
+	padding: 50px;
+	line-height: 30px;
+	background: rgba(255, 255, 255, 0.95)
+}
+.wrapper2{
+	background: #1e1f23;
+	padding: 90px;
+	margin: 0px 20px;
+}		
+.header2{
+	background: #121315;
+	border-radius: 4px 4px 0 0;
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+}
+.header2 h2{
+	color: #FFF;
+	position: relative;
+	padding-bottom:12px;
+	font-size: 28px; 
+}
+.header2 p {
+	color: rgba(255, 255, 255, 0.25);
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing:4px;
+	margin: 0px;			
+}
+.gallery {
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.gallery > * {
+	width: 50%;
+}
+.wrapper3{
+	margin: 0px 20px;
+	
+	background-color: rgba(255, 255, 255, 0.95);
+}	
+.style3{
+	display: inline-block;
+}
+.inner3{
+	display: inline-block;
+	float: right;
+	padding: 92px 0px;
+}
+.inner3 h3{
+	color: #1e1f23;
+	font-weight: 700;
+	margin: 0 0 16px 0px;
+}
+.inner3 p{
+	line-height: 30px;
+}
+.wrapper4{
+	margin: 0px 20px;
+	
+	background-color: #1e1f23;
+}
+.style4{
+	display: inline-block;
+	
+}
+.inner4{
+	display: inline-block;
+	float: left;
+	padding: 92px 44px;
+}
+.inner4 h3{
+	color: white;
+	font-weight: 700;
+	margin: 0 0 16px 0px;
+}
+.inner4 p{
+	line-height: 30px;
+	color: white;
+}
+.footer {
+		padding: 32px 0px 1.6px 0px  ;
+		text-align: center;
+	}
+.footer a {
+			color: rgba(255, 255, 255, 0.75);
+		}
+.footer a:hover {
+				color: #FFF;
+}
+.container {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding: 50px;
+}
+.container ul{
+	list-style-type: none;
+	display: inline-block;
+}
+.container ul li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+.copyright {
+			color: #bbb;
+			font-size: 0.9rem;
+			margin: 0 0 2rem 0;
+			padding: 0 1rem;
+			text-align: center;
+		}

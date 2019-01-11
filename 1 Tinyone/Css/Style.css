@@ -1,0 +1,971 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0;
+	border:0;
+}
+#mainwrapper{
+	background:#fcdb00;
+	height:864px;
+	width:1400px;
+	
+}
+#ul{
+	display:inline-block;
+	list-style-type:none;
+}
+#ul li{
+	display:inline-block;
+}
+.img1{
+	background:url(../Images/Background/menu%20bar.png)  no-repeat;
+	height:20px;
+	display:inline-block;
+	width:20px;
+	margin-left:230px;
+	margin-top:72px;
+}
+.tinyone{
+	font-family:"MS Serif", "New York", serif;
+	font-size:30px;
+}
+
+.c1{
+	display:inline-block;
+	position:relative;
+	top:15px;
+}
+.img2{
+	background-image:url(../Images/Background/fingerprint.png);
+	background-repeat:no-repeat;
+	height:44px;
+	width:44px;
+	margin-left:280px;
+	margin-top:72px;
+}
+.img3{
+	background:url(../Images/Background/fb.png)  no-repeat;
+	height:20px;
+	display:inline-block;
+	width:20px;
+	margin-left:260px;
+	margin-top:72px;
+}
+.img4{
+	background:url(../Images/Background/twitter.png) no-repeat;
+	height:20px;
+	display:inline-block;
+	width:20px;
+	margin-left:10px;
+	margin-top:72px;
+}
+.img5{
+	background:url(../Images/Background/googleplus.png)  no-repeat;
+	height:20px;
+	display:inline-block;
+	width:20px;
+	margin-left:10px;
+	margin-top:72px;
+}
+.img6{
+	background:url(../Images/Background/pinterest.png) no-repeat;
+	height:20px;
+	display:inline-block;
+	width:20px;
+	margin-left:10px;
+	margin-top:72px;
+}
+.div2{
+	margin-top:260px;
+	text-align: center;
+}
+.p{
+	font-family:"MS Serif", "New York", serif;
+	font-size:48px;
+	font:bold;
+	text-align:center;
+}
+.p1{
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+	text-align:center;
+	margin-top:10px;
+	padding-bottom: 70px;
+}
+.p2{
+	height:56px;
+	width:254px;
+	font-family:"MS Serif", "New York", serif;
+	font-size:22px;
+	text-align:center;
+	box-sizing:border-box;
+	border:2px solid;
+	padding:10px;
+	margin-top:46px;
+}
+a{
+	text-decoration: none;
+}
+.start{
+	
+	width: 256px;
+    height: 56px;
+    line-height: 56px;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 22px;
+    display: block;
+    margin: 0 auto 180px;
+    text-align: center;
+    font-weight: 700;
+}
+.start:hover{
+	color: #fff;
+    background: #232323;
+    transition: all 0.5s;
+
+}	
+.img7{
+	display:inline-block;
+	background:url(../Images/Background/down.png) no-repeat;
+	height:32px;
+	width:20px;
+	
+}
+
+#whitebox{
+	height:4897px;
+	width:1400px;
+	background-color:#FFF;
+}
+.w1{
+	margin-top:115px;
+	margin-left:340px;
+	display:inline-block;
+}
+.p3{
+	font-family:"MS Serif", "New York", serif;
+	font-size:32px;
+	text-align:center;
+}
+.p4{
+	color:#999;
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+	text-align:center;
+	margin-top:10px;
+}
+.w2{
+	margin-top:115px;
+	margin-left:230px;
+	display:inline-block;
+}
+img{
+	float:left;
+	margin:-10px 34px;
+}
+.p5{
+	font-family:"MS Serif", "New York", serif;
+	font:bold;
+	font-size:22px;
+}
+.p6{
+	color:#999;
+	font-family:"MS Serif", "New York", serif;
+	margin-left:100px;
+	margin-top:15px;
+}
+.w3{
+	display:inline-block;
+	margin-top:115px;
+	margin-left:40px;
+}
+.p7{
+	font-family:"MS Serif", "New York", serif;
+	font:bold;
+	font-size:32px;
+	text-align:center;
+	margin-top:235px;
+}
+.p8{
+	color:#999;
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+	text-align:center;
+	margin-top:20px;
+}
+#ul{
+	list-style-type:none;
+	display:inline-block;
+}
+#ul li{
+	display:inline-block;
+}
+
+.img9{
+	background:url(../Images/Background/Basic.png) no-repeat;
+	height:100px;
+	width:100px;
+	display:inline-block;
+	margin-left:450px;
+	margin-top:80px;
+}
+.img10{
+	background:url(../Images/Background/Standered.png) no-repeat;
+	height:100px;
+	width:100px;
+	display:inline-block;
+	margin-left:125px;
+}
+.img11{
+	background:url(../Images/Background/enterprise.png) no-repeat;
+	height:100px;
+	width:100px;
+	display:inline-block;
+	margin-left:140px;
+}
+.div3{
+	margin-left:475px;
+	margin-top:25px;
+	display:inline-block;
+}
+.p9{
+	display:inline-block;
+	font-size:24px;
+}
+.p10{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	margin-left:-40px;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+}
+.div4{
+	display:inline-block;
+	margin-left:95px;
+}
+.p11{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	margin-left:-25px;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+}
+.p12{
+	display:inline-block;
+	font-size:24px;
+	margin-left:-15px;
+}
+.p13{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	margin-left:-35px;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+}	
+.div5{
+	display:inline-block;
+	margin-left:115px;
+}
+.img12{
+	display:inline-block;
+	margin-left:435px;
+	margin-top:50px;
+	
+}
+.img13{
+	display:inline-block;
+	margin-left:100px;
+	margin-top:50px;
+}
+.img14{
+	display:inline-block;
+	margin-left:120px;
+	margin-top:50px;
+}
+.border1{
+	border-style:solid;
+	border-bottom:solid #000;
+	width:50px;
+	margin-left:475px;
+	margin-top:20px;
+	display:inline-block;
+}
+.border2{
+	border-style:solid;
+	border-bottom:solid #000;
+	width:50px;
+	margin-left:180px;
+	margin-top:20px;
+	display:inline-block;
+}
+.border3{
+	border-style:solid;
+	border-bottom:solid #000;
+	width:50px;
+	margin-left:195px;
+	margin-top:20px;
+	display:inline-block;
+}
+.p14{
+	display:inline-block;
+	font-size:14px;
+	color:#999;
+	font-family:"MS Serif", "New York", serif;
+	margin-left:470px;
+	margin-top:10px;
+}
+.p15{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	font-family:"MS Serif", "New York", serif;
+	margin-left:175px;
+	margin-top:10px;
+}
+.p16{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	font-family:"MS Serif", "New York", serif;
+	margin-left:210px;
+	margin-top:10px;
+}
+.button {
+	font:bold;
+	font-family:"MS Serif", "New York", serif;
+	width:141px;
+	height:50px;
+	margin-left:430px;
+	margin-top:35px;
+    background-color:#FFF;
+    border:1px solid;
+    color:#000;
+	text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover{
+	background: #010101;
+    color: #fff;
+    transition: all 0.5s;
+}
+.button1 {
+	font:bold;
+	font-family:"MS Serif", "New York", serif;
+	width:141px;
+	height:50px;
+	margin-left:95px;
+	margin-top:35px;
+    background-color:#FFF;
+    border:1px solid;
+    color:#000;
+	text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1:hover{
+	background: #010101;
+    color: #fff;
+    transition: all 0.5s;
+}
+.button2 {
+	font:bold;
+	font-family:"MS Serif", "New York", serif;
+	width:141px;
+	height:50px;
+	margin-left:100px;
+	margin-top:35px;
+    background-color:#FFF;
+    border:1px solid;
+    color:#000;
+	text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button2:hover{
+	background: #010101;
+    color: #fff;
+    transition: all 0.5s;
+}
+.p17{
+	font-family:"MS Serif", "New York", serif;
+	font:bold;
+	font-size:32px;
+	text-align:center;
+	margin-top:235px;
+}
+.p18{
+	color:#999;
+	font-family:"MS Serif", "New York", serif;
+	font-size:20px;
+	text-align:center;
+	margin-top:20px;
+}
+#ul2{
+	list-style-type:none;
+	display:inline-block;
+	margin-top:75px;
+	margin-left:230px;
+}
+#ul2 li{
+	display:inline-block;
+}
+.img15{
+	background:url(../Images/Illustration/fully%20responsive.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.img16{
+	background:url(../Images/Illustration/font%20awesome%20icon.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.img17{
+	background:url(../Images/Illustration/html%20and%20css3.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.img18{
+	background:url(../Images/Illustration/various%20layouts.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.div6{
+	display:inline-block;
+	margin-left:275px;
+	margin-top:22px;
+}
+.p19{
+	color:#999;
+	display:inline-block;
+	font-size:20px;
+	margin-left:20px;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+}
+.div7{
+	display:inline-block;
+	margin-left:65px;
+	margin-top:22px;
+}
+
+
+#ul3{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:230px;
+	margin-top:65px;
+}
+#ul3 li{
+	display:inline-block;
+}
+.img19{
+	background:url(../Images/Illustration/fully%20responsive2.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.img20{
+	background:url(../Images/Illustration/font%20awesome%20icon2.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.img21{
+	background:url(../Images/Illustration/html%20and%20css3%202.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+.img22{
+	background:url(../Images/Illustration/various%20layouts2.png) no-repeat;
+	height:223px;
+	width:223px;
+	display:inline-block;
+	margin-left:20px;
+}
+#ul4{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:300px;
+	margin-top:65px;
+}
+#ul4 li{
+	display:inline-block;
+}
+.img23{
+	background:url(../Images/Illustration/john%20doe1.png) no-repeat;
+	height:128px;
+	width:128px;
+	display:inline-block;
+}
+.img24{
+	background:url(../Images/Illustration/john%20doe2.png) no-repeat;
+	height:128px;
+	width:128px;
+	display:inline-block;
+	margin-left:100px;
+}
+.img25{
+	background:url(../Images/Illustration/john%20doe3.png) no-repeat;
+	height:128px;
+	width:128px;
+	display:inline-block;
+	margin-left:100px;
+}
+.img26{
+	background:url(../Images/Illustration/john%20doe4.png) no-repeat;
+	height:128px;
+	width:128px;
+	display:inline-block;
+	margin-left:100px;
+}
+.div8{
+	display:inline-block;
+	margin-left:310px;
+	margin-top:22px;
+}
+.p20{
+	display:inline-block;
+	font-size:24px;
+}
+.p21{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	margin-left:10px;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+}
+.div9{
+	display:inline-block;
+	margin-left:140px;
+	margin-top:22px;
+}
+.div10{
+	display:inline-block;
+	margin-left:270px;
+	margin-top:22px;
+}
+.p22{
+	color:#999;
+	font-size:14px;
+	font-family:"MS Serif", "New York", serif;
+}
+.div11{
+	display:inline-block;
+	margin-left:78px;
+	margin-top:22px;
+}
+.div12{
+	display:inline-block;
+	margin-left:310px;
+	margin-top:5px;
+}
+#ul5{
+	list-style-type:none;
+	display:inline-block;
+	
+}
+#ul5 li{
+	display:inline-block;
+}
+.img27{
+	background:url(../Images/Illustration/facebook.png) no-repeat;
+	height:12px;
+	width:15px;
+	display:inline-block;
+}
+.img28{
+	background:url(../Images/Illustration/twiter.png) no-repeat;
+	height:12px;
+	width:15px;
+	display:inline-block;
+	margin-left:5px;
+}
+.img29{
+	background:url(../Images/Illustration/in.png) no-repeat;
+	height:12px;
+	width:15px;
+	display:inline-block;
+	margin-left:5px;
+}
+.div13{
+	display:inline-block;
+	margin-left:170px;
+	margin-top:5px;
+}
+#ul6{
+	list-style-type:none;
+	display:inline-block;
+	
+}
+#ul6 li{
+	display:inline-block;
+}
+
+#ul7{
+	list-style-type:none;
+	display:inline-block;
+	
+}
+#ul7 li{
+	display:inline-block;
+}
+#ul8{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:430px;
+	margin-top:65px;
+}
+#ul8 li{
+	display:inline-block;
+}
+.img30{
+	background:url(../Images/Illustration/products.png) no-repeat;
+	height:43px;
+	width:45px;
+	display:inline-block;
+}
+.img31{
+	background:url(../Images/Illustration/dowanloads.png) no-repeat;
+	height:38px;
+	width:52px;
+	display:inline-block;
+	margin-left:100px;
+}
+.img32{
+	background:url(../Images/Illustration/customer.png) no-repeat;
+	height:49px;
+	width:52px;
+	display:inline-block;
+	margin-left:100px;
+}
+.img33{
+	background:url(../Images/Illustration/like.png) no-repeat;
+	height:42px;
+	width:43px;
+	display:inline-block;
+	margin-left:100px;
+}
+#ul9{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:430px;
+	margin-top:10px;
+}
+#ul9 li{
+	display:inline-block;
+}
+.img34{
+	background:url(../Images/Illustration/20.png) no-repeat;
+	height:17px;
+	width:24px;
+	display:inline-block;
+}
+.img35{
+	background:url(../Images/Illustration/120000.png) no-repeat;
+	height:21px;
+	width:81px;
+	display:inline-block;
+	margin-left:100px;
+}
+.img36{
+	background-image:url(../Images/Illustration/1200.png);
+	background-repeat:no-repeat;
+	height:17px;
+	width:49px;
+	display:inline-block;
+	margin-left:100px;
+}
+.img37{
+	background:url(../Images/Illustration/900.png) no-repeat;
+	height:17px;
+	width:38px;
+	display:inline-block;
+	margin-left:100px;
+}
+.div14{
+	margin-left:425px;
+	display:inline-block;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+	color:#999;
+	font-size:14px;
+}
+.div15{
+	margin-left:90px;
+	display:inline-block;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+	color:#999;
+	font-size:14px;
+}
+.div16{
+	margin-left:100px;
+	display:inline-block;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+	color:#999;
+	font-size:14px;
+}
+.div17{
+	margin-left:650px;
+	margin-top:80px;
+}
+.img38{
+	background:url(../Images/Illustration/john%20doe1.png) no-repeat;
+	height:128px;
+	width:128px;
+	display:inline-block;
+}
+.div18{
+	margin-left:670px;
+	margin-top:10px;
+}
+.p22{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	margin-top:5px;
+	font-family:"MS Serif", "New York", serif;
+}
+.p22{
+	color:#999;
+	display:inline-block;
+	font-size:14px;
+	line-height:20px;
+	margin-top:5px;
+	font-family:"MS Serif", "New York", serif;
+}
+#ul10{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:450px;
+	margin-top:50px;
+}
+#ul10 li{
+	display:inline-block;
+}
+.img39{
+	background:url(../Images/Illustration/address.png) no-repeat;
+	height:20px;
+	width:13px;
+	display:inline-block;
+}
+.img40{
+	background:url(../Images/Illustration/email.png) no-repeat;
+	height:18px;
+	width:22px;
+	display:inline-block;
+	margin-left:220px;
+}
+.img41{
+	background-image:url(../Images/Illustration/phone.png);
+	background-repeat:no-repeat;
+	height:20px;
+	width:19px;
+	display:inline-block;
+	margin-left:220px;
+}
+#ul11{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:415px;
+	margin-top:20px;
+}
+#ul11 li{
+	display:inline-block;
+}
+.img42{
+	background:url(../Images/Illustration/address2.png) no-repeat;
+	height:18px;
+	width:80px;
+	display:inline-block;
+}
+.img43{
+	background:url(../Images/Illustration/email2.png) no-repeat;
+	height:18px;
+	width:62px;
+	display:inline-block;
+	margin-left:165px;
+}
+.img44{
+	background-image:url(../Images/Illustration/phone2.png);
+	background-repeat:no-repeat;
+	height:18px;
+	width:63px;
+	display:inline-block;
+	margin-left:180px;
+}
+.div19{
+	margin-left:375px;
+	display:inline-block;
+	margin-top:10px;
+	font-family:"MS Serif", "New York", serif;
+	color:#999;
+	font-size:14px;
+	text-align:center;
+}
+.div20{
+	margin-left:100px;
+	display:inline-block;
+	font-family:"MS Serif", "New York", serif;
+	color:#999;
+	font-size:14px;
+	
+}
+.div21{
+	margin-left:460px;
+	margin-top:20px;
+}
+input[type=text]{
+    width:480px;
+	height:55px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+.p23{
+	width:480px;
+	height:205px;
+    padding:10px;
+	font-family:"MS Serif", "New York", serif;
+	color:#999;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+.div22{
+	margin-left:623px;
+	margin-top:20px;
+}
+.button3 {
+	font:bold;
+	font-family:"MS Serif", "New York", serif;
+	width:170px;
+	height:50px;
+    background-color:#000;
+    border:1px solid;
+    color:#FFF;
+	text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button3:hover{
+	background: #fcdb00;
+    color: #010101;
+    transition: all 0.5s;
+}
+#blackbox{
+	height:770px;
+	width:1400px;
+	background-color:#000;
+	display:inline-block;
+}
+.p24{
+	color:#FFF;
+	font-family:"MS Serif", "New York", serif;
+	font:bold;
+	font-size:32px;
+	text-align:center;
+	margin-top:97px;
+}
+.div23{
+	margin-left:350px;
+	margin-top:20px;
+}
+.button4 {
+	display:inline-block;
+	font:bold;
+	font-family:"MS Serif", "New York", serif;
+	width:140px;
+	height:52px;
+    background-color:#FFF;
+    border:1px solid;
+    color:#000;
+	text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button4:hover{
+	background: #fcdb00;
+   
+    transition: all 0.5s;
+}
+.div23{
+	margin-left:230;
+	margin-top:110px;
+	display:inline-block;
+}
+.p25{
+	display:inline-block;
+	color:#FFF;
+	font-size:16px;
+	font-family:"MS Serif", "New York", serif;
+}
+.div24{
+	margin-left:70px;
+	margin-top:110px;
+	display:inline-block;
+}
+.div25{
+	margin-left:250px;
+	display:inline-block;
+}
+.p26{
+	display:inline-block;
+	color:#FFF;
+	font-size:16px;
+	font-family:"MS Serif", "New York", serif;
+}
+.div27{
+	margin-left:250px;
+	margin-top:110px;
+	display:inline-block;
+}
+.p26{
+	display:inline-block;
+	color:#FFF;
+	font-size:16px;
+	font-family:"MS Serif", "New York", serif;
+	margin-left:250px;
+}
+
+
+
+
+
+
+
+
+

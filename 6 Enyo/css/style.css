@@ -1,0 +1,616 @@
+/*................................reset...........................................*/
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	color: #5a5a5a;
+	font-weight:400;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #25365d;
+	font-size: 60px;
+	line-height:60px;
+}
+
+.header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9997;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.header .sticky {
+	width: 100%;
+	background: #0394dd;
+	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+	padding: 15px 0;
+}
+.logo {
+	width: 30%;
+	float: left;
+}
+.logo h1 a img{
+	display:block;
+}
+nav {
+	width: 65%;
+	float: left;
+	text-align: right;
+}
+.search {
+	width: 5%;
+	float: right;
+}
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+.search a i {
+	font-size: 20px;
+	color: #fff;
+}
+nav ul li a {
+	color: #fff;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 700;
+}
+nav ul li a:hover {
+	color: #ff2868;
+	transition: all 0.5s;
+}
+#wrap {
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  float: right;
+  padding: 0;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 40px;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #5a5a5a;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+  
+}
+
+input[type="text"]:focus {
+  width: 430px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+ background:#fff;
+}
+input[type="submit"] {
+  height: 40px;
+  width: 50px;
+  display: inline-block;
+  color:red;
+  float: right;
+  background:#0394dd url(images/serch.png) center center no-repeat;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+input[type="text"]:focus > input[type="submit"]{background-color:none;}
+input[type="submit"]:hover {
+  opacity: 1;
+}
+.active{
+	color:#ff2868;
+}
+.banner {
+	background:url(../images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 1338px;
+	display: block;
+}
+.topbannerdata{
+	padding-top: 240px;
+	max-width: 825px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.topbannerdata h1{
+	font-size: 55px;
+	letter-spacing: 5px;
+	line-height: 70px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+.topbannerdata p{
+	font-size: 24px;
+	line-height: 42px;
+	color: #bbd8ff;
+	padding: 20px 0 50px;
+}
+.topbannerdata a{
+	max-width: 217px;
+	border-radius: 50px;
+	background: #25365d;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+.topbannerdata a span{
+	margin-right: 20px;
+	color: #bbd8ff;
+	font-size: 20px;
+}
+.topbannerdata a:hover, .topbannerdata a:hover span {
+	background: #ff2868;
+    color: #fff;
+	transition: all 0.5s;
+}
+.downloadit{
+	margin-top:-100px;
+	padding-bottom:140px;	
+	position:relative;
+}
+.downloadit h2{ margin-bottom:45px;}
+.downloadit h5{padding-right:450px; padding-bottom:30px;}
+.downloadit p span{color:#ff2868; margin-right:20px;}
+.downloadit p{color:#93aac9;}
+
+.downloadit img{position:absolute; right:150px; top:0; display:block;}
+.downloadit a {
+	max-width: 217px;
+	border-radius: 50px;
+	background: #25365d;
+	border:1px solid #25365d;
+	color: #fff;
+	display: block;
+	text-align:center;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top:60px;
+}
+.downloadit a:hover{
+	background: #ff2868;
+    color: #fff;
+	border:1px solid #ff2868;
+	transition: all 0.5s;
+}
+.services{
+	background:#f7f9fb;
+	padding-top:140px;	
+}
+.services span{
+	width: 70px;
+    float: left;
+    display: block;
+    min-height: 230px;	
+	font-size:50px;
+}
+.services h3{
+	color:#25365d;
+	font-size:22px;
+	font-weight:700;
+	line-height:30px;
+	letter-spacing:0.3px;
+	margin-bottom:15px;	
+}
+.features{padding:150px 0 110px; text-align:center;}
+.features h2{text-transform:uppercase; margin-bottom:78px;}
+
+.plan{text-align:center; background:#eaedf1; padding:150px 0 110px;}
+.plan h2{padding-bottom:40px;}
+.white{
+	margin:70px 0;
+	background:#fff;
+	padding:35px;	
+}
+.white h3{font-size:18px; line-height:36px; color:#5a5a5a;}
+.white h2{padding:40px 0;}
+.white h2 span{
+	font-size:22px;
+	line-height:36px;	
+	font-family: 'Open Sans', sans-serif;
+	color:#5a5a5a;
+}
+.plan h4{
+	font-size:22px;
+	color:#25365d;
+	margin:15px 0 25px;	
+}
+.plan a{
+	margin:50px 30px 0;
+	display:inline-block;
+	font-size:22px;
+	color:#25365d;
+	font-weight:700;
+}
+.plan a i{
+	font-size:30px;
+
+	position:relative;
+	top:3px;
+	margin-right:5px;	
+}
+.plan a:hover{
+	color:#ff2868;
+	transition:all 0.5s;
+}
+
+footer{
+	background:url(../images/bottombanner.jpg) no-repeat bottom center;
+	min-height:701px;
+	background-size:cover;	
+}
+.downloadnow{
+	text-align:center;	
+	margin-top:140px;	
+}
+.downloadnow h2{ text-transform:uppercase; margin-bottom:50px;}
+.downloadnow p{margin-bottom:50px;}
+.downloadnow a {
+	max-width: 217px;
+	border-radius: 50px;
+	background: #25365d;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 700;
+	border:1px solid #25365d;
+}
+.downloadnow a span {
+	margin-right: 20px;
+	color: #bbd8ff;
+	font-size: 20px;
+}
+.downloadnow a:hover {
+	background: #ff2868;
+	color: #fff;
+	transition: all 0.5s;
+	border:1px solid #ff2868;
+}
+.downloadnow a:hover span{color: #fff;}
+footer p{font-size:18px; text-align:center; padding-top:15px;}
+footer p a:hover{color:#ff2868;
+	transition:all 0.5s;}
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+.banner {
+	min-height: 800px;
+}
+.topbannerdata {
+	padding-top: 170px;
+}
+.downloadit img {
+	right: 0;
+	max-width: 550px;
+}
+.downloadit {
+	margin-top: -50px;
+}
+.features img {
+	display: block;
+	width: 100%;
+}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+.banner {
+	min-height: 800px;
+}
+.topbannerdata h1 {
+	font-size: 60px;
+}
+.topbannerdata {
+	padding-top: 170px;
+}
+.downloadit h5 {
+	padding-right: 304px;
+}
+.services span {
+	width: 55px;
+}
+.services {
+	padding: 140px 0;
+}
+.services h3 {
+	color: #25365d;
+	font-size: 20px;
+}
+.white {
+	min-height: 360px;
+}
+.downloadit img {
+	right: 0;
+	max-width: 550px;
+}
+.downloadnow h2 {
+	font-size: 50px;
+}
+.downloadit {
+	margin-top: -50px;
+}
+.features img {
+	display: block;
+	width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 959px) {
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.topbannerdata h1 {
+	font-size: 50px;
+}
+.banner {
+	min-height: 700px;
+}
+.topbannerdata {
+	padding-top: 170px;
+}
+.downloadit img {
+	right: 0;
+	max-width: 550px;
+}
+.downloadit h5 {
+	padding-right: 325px;
+}
+.downloadit h2 {
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+.downloadit {
+	margin-top: -50px;
+	padding-bottom: 50px;
+}
+.services {
+	padding-top: 50px;
+}
+.services span {
+	min-height: 180px;
+}
+.features {
+	padding: 50px 0;
+}
+.features h2 {
+	margin-bottom: 35px;
+}
+.features img {
+	width: 100%;
+	display: block;
+}
+h2 {
+	font-size: 50px;
+	line-height: 50px;
+}
+.plan {
+	padding: 50px 0;
+}
+.plan p {
+	padding: 0 10px;
+}
+.white {
+	min-height: 360px;
+}
+footer {
+	min-height: 402px;
+}
+.downloadnow {
+	margin-top: 50px;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+.search {
+	display: none;
+}
+nav {
+	width: 70%;
+}
+nav ul li a {
+	font-size: 16px;
+}
+nav ul li {
+	padding-right: 5px;
+}
+.topbannerdata h1 {
+	font-size: 30px;
+	line-height: 31px;
+}
+.banner {
+	min-height: 700px;
+}
+.topbannerdata {
+	padding-top: 120px;
+}
+.topbannerdata p {
+	font-size: 18px;
+	line-height: 26px;
+	padding: 15px 0 25px;
+}
+.downloadit img {
+    position: relative;
+    width: 100%;
+	right: 0;
+}
+.downloadit h5 {
+    padding-right: 0;
+}
+.downloadit {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+.downloadit h2 {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 31px;
+}
+.downloadit a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services span {
+    min-height: 95px;
+}
+.services {
+    padding-top: 30px;
+}
+.services p{margin-bottom:15px;}
+.services h3 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.features {
+    padding: 30px 0;
+}
+.features img{
+    display:block;
+	width:100%;
+}
+.features h2 {
+    margin-bottom: 25px;
+}
+.plan {
+    padding: 30px 0;
+}
+.white {
+    margin: 30px auto;
+    max-width: 350px;
+}
+.plan a {
+    margin: 31px 10px 0;
+    font-size: 18px;
+}
+.downloadnow {
+    margin-top: 30px;
+}
+.downloadnow h2 {
+    margin-bottom: 15px;
+}
+.downloadnow p {
+    margin-bottom: 25px;
+}
+footer {
+    min-height: 400px;
+}
+
+.cssload-loader:before,
+.cssload-loader:after {
+	top: 150%;
+}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 479px) {
+	.logo {
+    width: 100%;
+    float: none;
+	margin-bottom: 10px;
+}
+header {
+    padding: 20px 0;
+}
+header.sticky {
+    padding: 10px 0;
+}
+.logo img{
+	margin:0 auto;
+}
+nav ul li a {
+    font-size: 15px;
+}
+nav{
+	width:100%; 
+	float:none; 
+	text-align:center;
+}
+.services p {
+    line-height: 24px;
+}
+.services span {
+    min-height: 120px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.plan h2 {
+    padding-bottom: 15px;
+}
+.plan p{padding:0 10px;}
+.white h2 {
+    padding: 12px 0;
+}
+footer {
+    min-height: 300px;
+}
+footer p {
+    font-size: 16px;
+}
+.downloadit p span {
+    margin-right: 5px;
+}
+.topbannerdata h1 {
+    font-size: 22px;
+    line-height: 28px;
+	letter-spacing:2px;
+}
+}
